@@ -11,25 +11,25 @@
   z-index: 99;
 }
 
-#stamp-game__box {
+#golden-bead__box {
   align-items: stretch;
   border: 4px solid rgb(137, 95, 43);
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 300px;
+  grid-template-columns: 280px 230px 1fr 1fr;
+  grid-template-rows: 240px;
   justify-items: stretch;
   margin: auto;
-  max-width: 1000px;
+  max-width: 670px;
   width: 100%;
 }
 @media (min-width: 650px) {
-  #stamp-game__box {
+  #golden-bead__box {
     border-width: 6px;
     width: 80%;
   }
 }
 
-#stamp-game__box > div {
+#golden-bead__box > div {
   align-items: center;
   background: rgb(15, 80, 40);
   border: 4px solid rgb(137, 95, 43);
@@ -38,32 +38,55 @@
   padding: 0.4rem;
 }
 @media (min-width: 570px) {
-  #stamp-game__box > div {
+  #golden-bead__box > div {
     border-width: 6px;
     padding: 1.2rem;
   }
 }
 
-#stamp-game .moved {
+#golden-bead .moved {
   position: absolute;
 }
 
-#stamp-game__counters {
+#golden-bead__counters {
   grid-area: circle;
 }
-#stamp-game__counters > div {
+#golden-bead__counters > div {
   align-items: center;
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.stamp-game__stamps img {
-  width: 100px;
+.golden-bead__one img {
+  width: 40px;
 }
 @media (min-width: 570px) {
-  .stamp-game__stamps img {
-    width: 100px;
+  .golden-bead__one img {
+    width: 40px;
   }
 }
-
+.golden-bead__ten img {
+  width: 27px;
+}
+@media (min-width: 570px) {
+  .golden-bead__ten img {
+    width: 27px;
+  }
+}
+.golden-bead__hundred img {
+  width: 170px;
+}
+@media (min-width: 570px) {
+  .golden-bead__hundred img {
+    width: 170px;
+  }
+}
+.golden-bead__thousand img {
+  width: 220px;
+}
+@media (min-width: 570px) {
+  .golden-bead__thousand img {
+    width: 220px;
+  }
+}

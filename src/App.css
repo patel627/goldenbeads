@@ -29,10 +29,6 @@
   width: 4.8rem;
 }
 
-#home-button {
-  background: no-repeat white url(./images/home-black-18dp.svg) center/70%;
-}
-
 #reset-button {
   background: no-repeat white url(./images/refresh-black-18dp.svg) center/70%;
 }
