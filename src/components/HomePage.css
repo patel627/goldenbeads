@@ -1,0 +1,47 @@
+#home-page {
+  margin: 0 auto;
+  max-width: 660px;
+  padding: 2rem 3rem;
+}
+
+.materials {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.material {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  color: inherit;
+  font-family: 'Cookie', cursive;
+  font-size: 3rem;
+  margin: 1rem 0;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  width: 48%;
+}
+
+.material__peg-board,
+.material__stamp-game {
+  padding-bottom: 100%;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.material:hover .material__peg-board,
+.material:hover .material__stamp-game {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.material__caption {
+  background: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  position: relative;
+  z-index: 2;
+}

@@ -1,0 +1,25 @@
+.peg {
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  height: 3rem;
+  margin: 0 1.5rem;
+  padding: 0;
+  position: absolute;
+  width: 3rem;
+}
+
+.peg.moved {
+}
+
+.peg-blue {
+  background: radial-gradient(circle at 50% 40%, #0087f3, #005ca6 66%, #9b5050 100%);
+}
+
+.peg-green {
+  background: radial-gradient(circle at 50% 40%, #009c69, #01624b  66%, #9b5050 100%);
+}
+
+.peg-red {
+  background: radial-gradient(circle at 50% 40%, #ec0012, #99000b 66%, #9b5050 100%);
+}

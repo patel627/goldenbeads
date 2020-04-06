@@ -1,0 +1,69 @@
+.react-draggable img {
+  padding: 0.4rem;
+}
+.react-draggable {
+  z-index: 1;
+}
+.react-draggable-dragged {
+  z-index: 2;
+}
+.react-draggable-dragging {
+  z-index: 99;
+}
+
+#stamp-game__box {
+  align-items: stretch;
+  border: 4px solid rgb(137, 95, 43);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+  justify-items: stretch;
+  margin: auto;
+  max-width: 1000px;
+  width: 100%;
+}
+@media (min-width: 650px) {
+  #stamp-game__box {
+    border-width: 6px;
+    width: 80%;
+  }
+}
+
+#stamp-game__box > div {
+  align-items: center;
+  background: rgb(15, 80, 40);
+  border: 4px solid rgb(137, 95, 43);
+  display: flex;
+  justify-content: space-around;
+  padding: 0.4rem;
+}
+@media (min-width: 570px) {
+  #stamp-game__box > div {
+    border-width: 6px;
+    padding: 1.2rem;
+  }
+}
+
+#stamp-game .moved {
+  position: absolute;
+}
+
+#stamp-game__counters {
+  grid-area: circle;
+}
+#stamp-game__counters > div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.stamp-game__stamps img {
+  width: 100px;
+}
+@media (min-width: 570px) {
+  .stamp-game__stamps img {
+    width: 100px;
+  }
+}
+
